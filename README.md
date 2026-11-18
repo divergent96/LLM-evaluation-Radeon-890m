@@ -2,7 +2,7 @@
 
 Which open-weight models can do real work on a small machine with no discrete GPU, and what has to be true around the model for the results to hold?
 
-I tested about 20 models on an AMD Ryzen AI 9 HX 370 (Radeon 890M integrated GPU) with 64 GB of LPDDR5X at 8500 MT/s, shared between CPU and GPU, between 2026-11-06 and 2026-11-11. Two jobs were tested:
+I tested about 20 models on an AMD Ryzen AI 9 HX 370 (Radeon 890M integrated GPU) with 64 GB of LPDDR5X at 8500 MT/s, shared between CPU and GPU. Two jobs were tested:
 
 1. **Private-data extraction**: pull fields out of tax, bank and ID documents without leaking anything.
 2. **Homelab deploy work**: write compose files and setup scripts, debug a broken container, review a GitHub project before deploying it.
